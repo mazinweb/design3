@@ -1,0 +1,609 @@
+/* start my framework */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.table {
+    height: 100%;
+    display: table;
+}
+
+.table-row {
+    display: table-row;
+    height: 100%;
+    align-content: center;
+}
+
+.text-center {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.text-center-gl {
+    text-align: center;
+}
+
+.upper {
+    text-transform: uppercase;
+}
+
+.main-color {
+    color: #f7600e;
+}
+
+.main-backgroundcolor {
+    background-color: #f7600e;
+}
+
+.overlay {
+    background: rgba(49, 55, 61, .6);
+    width: 100%;
+    height: 100%;
+}
+
+::-webkit-input-placeholder {
+    font-size: 15px;
+}
+
+:-ms-input-placeholder {
+    font-size: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+/* end my framework */
+
+/* start header */
+.header {
+    background: url('../../sass/img/testimo4.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header .navbar {
+    overflow: hidden;
+    padding: 20px 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+.header .navbar .logo{
+    font-size: 24px;
+}
+
+.header .navbar .links {
+    float: right;
+    font-size: 24px;
+}
+
+.header .navbar .links svg {
+    margin-left: 10px;
+}
+
+.header .intro h1 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+.header .intro p {
+    margin: 10px 0 40px;
+    line-height: 1.9;
+    font-size: 20px;
+
+}
+
+.header .intro hr {
+    border: 1.5px solid #000000;
+    margin: 10px 250px 10px;
+}
+
+.header .buttons button {
+    background: transparent;
+    padding: 10px 0;
+    width: 180px;
+    font-size: 14px;
+    border: 1px solid #ffffff;
+    margin: 0 8px;
+    border-radius: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+
+}
+
+.header .buttons button:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #ffffff;
+}
+
+.header .arrow {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.header .arrow svg {
+    border: 2px solid #7B7B7B;
+    padding: 5px 5px;
+    border-radius: 60%;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    cursor: pointer;
+
+}
+
+/* end header */
+
+/* start features*/
+
+.features {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.features .box {
+    width: 22%;
+    float: left;
+    margin-right: 4%;
+}
+
+.features .box:last-child {
+    margin-right: 0;
+}
+
+.features .box svg {
+    color: #f7600e;
+    border: 2px solid #7B7B7B;
+    padding: 20px 20px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    line-height: 20px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.features .box svg:hover {
+    background-color: #F7600E;
+    border: 2px solid #F7600E;
+    color: #FFFFFF;
+}
+
+/* end features*/
+
+/* start subscribe */
+.subscribe {
+    background: url('../../sass/img/testimo3.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.subscribe form {
+    padding: 100px 0;
+    width: 700px;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe form input[type="email"] {
+    padding: 0px 20px;
+    width: 320px;
+    font-size: 18px;
+    border-radius: 15px;
+    position: relative;
+    top: 2px;
+    border: none;
+    height: 37px;
+    line-height: 37px;
+}
+
+.subscribe form button {
+    padding: 10px;
+    width: 200px;
+    background-color: #F7600E;
+    border: none;
+    border-radius: 15px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+/* end subscribe */
+
+/* start my work */
+
+.my-work {
+    padding: 50px 0;
+}
+
+.my-work .show-more {
+    background: transparent;
+    border: 1px solid #CCCCCC;
+    width: 190px;
+    padding: 10px;
+    border-radius: 15px;
+    margin-top: 40px;
+    color: #5F5F5F;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.my-work .show-more:hover {
+    background-color: #f7600e;
+    border: 1px solid #f7600e;
+    color: #ffffff;
+}
+
+.my-work h1 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.my-work h1 ~ p {
+    line-height: 2;
+    margin: 10px 0 40px;
+}
+
+.my-work .items-box {
+    overflow: hidden;
+}
+
+.my-work .items-box .item img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.my-work .items-box .item {
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    margin-left: 1.33333%;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+.my-work .items-box .item:hover .over {
+    display: block;
+}
+
+.my-work .items-box .item .over {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(247, 96, 14, .8);
+    color: #FFFFFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    display: none;
+}
+
+.my-work .item .over h3 {
+    font-size: 24px;
+    margin-top: 80px;
+    margin-bottom: 0;
+}
+
+.my-work .item .over p {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+.my-work .item .over button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+    width: 180px;
+    padding: 10px;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.my-work .item .over button:hover {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #f7600e;
+}
+
+/* end my work */
+
+/* start testimonial */
+
+.testimo {
+    background: url('../../sass/img/testimo2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.testimo .client {
+    padding: 100px 0;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.testimo .client img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+
+}
+
+.testimo .client p {
+    line-height: 2;
+    font-style: italic;
+}
+
+.testimo .fa-chevron-left,
+.testimo .fa-chevron-right {
+    position: absolute;
+    top: 50%;
+    color: #999999;
+    cursor: pointer;
+}
+
+.testimo .fa-chevron-left:hover,
+.testimo .fa-chevron-right:hover {
+    color: #F7600E;
+}
+
+.testimo .fa-chevron-left {
+    left: 0;
+}
+
+.testimo .fa-chevron-right {
+    right: 0;
+}
+
+/* end testimonial */
+
+/* start my team */
+
+.my-team {
+    padding: 60px 0;
+}
+
+.my-team h1 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.my-team h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.my-team .main {
+    margin: 10px 0 40px;
+    line-height: 2;
+    color: #666;
+    font-size: 20px;
+}
+
+.my-team .the-team {
+    overflow: hidden;
+}
+
+.my-team .the-team .person {
+    float: left;
+    width: 24%;
+    margin-left: 1%;
+    color: #888888;
+}
+
+.my-team .the-team .person:hover {
+    color: #555555;
+}
+
+.my-team .the-team .person:hover img {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+.my-team .the-team .person:hover .fa-facebook {
+    background-color: #3b5998;
+}
+
+.my-team .the-team .person:hover .fa-twitter {
+    background-color: #55acee;
+}
+
+.my-team .the-team .person:hover .fa-google-plus {
+    background-color: #dc4e41;
+}
+
+.my-team .the-team .person img {
+    width: 225px;
+    height: 225px;
+    filter: gray();
+    filter: grayscale(1);
+    -webkit-filter: grayscale(1);
+}
+
+.my-team .the-team .person p {
+    font-size: 20px;
+}
+
+.my-team .the-team .social-icons svg {
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+/* end my team */
+
+/* start contact form */
+
+.contact {
+    background: url('../../sass/img/testimo2.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.contact .overlay {
+    padding: 50px 0;
+    color: #FFFFFF;
+}
+
+.contact h1 {
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+
+.contact form {
+    width: 700px;
+    margin: 50px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"] {
+    width: 48%;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+}
+
+.contact form input[type="text"] {
+    float: right;
+}
+
+.contact form input[type="email"] {
+    float: left;
+}
+
+.contact form textarea {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    height: 140px;
+    border-radius: 20px;
+    border: 1px solid #FFFFFF;
+    background: transparent;
+}
+
+.contact form .info{
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.contact form .info button{
+    float: left;
+    padding: 10px;
+    width: 200px;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 14px;
+    background: transparent;
+    border: 1px solid #FFFFFF;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.contact form .info button:hover {
+    background-color: #F7600E;
+    border: 1px solid #f7600e;
+    color: #ffffff;
+}
+
+.contact form .info .form-icon svg{
+    background-color: #9da1a5;
+    width: 30px;
+    height: 30px;
+    line-height: 20px;
+    color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.contact form .info .form-icon .fa-facebook {
+    background-color: #3b5998;
+}
+
+.contact form .info .form-icon .fa-twitter {
+    background-color: #55acee;
+}
+
+.contact form .info .form-icon .fa-google-plus {
+    background-color: #dc4e41;
+}
+
+
+.contact form .info .form-icon{
+    float: right;
+}
+
+/* end contact form */
+
+/* start footer */
+.footer{
+    background-color: #3b434c;
+    color: #FFFFFF;
+    overflow: hidden;
+    padding: 30px 0;
+}
+
+
+.footer .copyright{
+    float: left;
+}
+
+
+.footer .design{
+    float: right;
+}
+
+/* end footer  */
+
